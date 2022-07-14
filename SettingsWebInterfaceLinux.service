@@ -1,16 +1,16 @@
 [Unit]
-Description=ASP.NET Core Project - Settings Web Interface
+Description=SettingsDriverWebInterface ASP.NET Project
 
 [Service]
-WorkingDirectory=/var/publish/SettingsWebInterfaceLinux/publish/
+WorkingDirectory=/var/publish/SettingsWebInterfaceLinux/publish
 ExecStart=/usr/bin/dotnet /var/publish/SettingsWebInterfaceLinux/publish/SettingsDriverCore.dll
 Restart=always
 # Restart service after 10 seconds if the dotnet service crashes:
 RestartSec=10
 KillSignal=SIGINT
-SyslogIdentifier=settingswebi
+SyslogIdentifier=SettingsDriverWebInterface
 User=root
-Environment=ASPNETCORE_ENVIRONMENT=Production 
+Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]
 WantedBy=multi-user.target
