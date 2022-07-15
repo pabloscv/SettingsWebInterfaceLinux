@@ -6,19 +6,19 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "SettingsDriverCore/1.0.0": {
+      "SettingsDriverCore/1.1.0": {
         "dependencies": {
-          "CommonServiceCore": "1.15.0",
+          "CommonServiceCore": "1.15.1",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.7",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.5",
-          "ServerRecoveryClient": "1.0.0"
+          "ServerRecoveryClient": "1.1.0"
         },
         "runtime": {
           "SettingsDriverCore.dll": {}
         }
       },
-      "CommonServiceCore/1.15.0": {
+      "CommonServiceCore/1.15.1": {
         "dependencies": {
           "CommonSynchronousSocket": "2.1.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
@@ -29,8 +29,8 @@
         },
         "runtime": {
           "lib/net6.0/CommonServiceCore.dll": {
-            "assemblyVersion": "1.15.0.0",
-            "fileVersion": "1.15.0.0"
+            "assemblyVersion": "1.15.1.0",
+            "fileVersion": "1.15.1.0"
           }
         }
       },
@@ -421,15 +421,15 @@
           "Microsoft.NETCore.Targets": "1.0.1"
         }
       },
-      "ServerRecoveryClient/1.0.0": {
+      "ServerRecoveryClient/1.1.0": {
         "dependencies": {
-          "CommonServiceCore": "1.15.0",
+          "CommonServiceCore": "1.15.1",
           "CommonSynchronousSocket": "2.1.0"
         },
         "runtime": {
           "lib/net6.0/ServerRecoveryClient.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       },
@@ -810,17 +810,17 @@
     }
   },
   "libraries": {
-    "SettingsDriverCore/1.0.0": {
+    "SettingsDriverCore/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "CommonServiceCore/1.15.0": {
+    "CommonServiceCore/1.15.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-i/H7huQpng82yKXjNV+bstipadjFTteyfE154ZT2X6DyRoYrIju6ThmK2MGb1dcn9iCiVUAAksKO+dsAFBHSwQ==",
-      "path": "commonservicecore/1.15.0",
-      "hashPath": "commonservicecore.1.15.0.nupkg.sha512"
+      "sha512": "sha512-LkkqUxnI4x81LZW9eRyw4TG7nXgFX4wkaLEwNgaPV3MC3VGY5jvX5OAa0EiVYzYZD2f84d2kkFNPA9d62e120Q==",
+      "path": "commonservicecore/1.15.1",
+      "hashPath": "commonservicecore.1.15.1.nupkg.sha512"
     },
     "CommonSynchronousSocket/2.1.0": {
       "type": "package",
@@ -1165,12 +1165,12 @@
       "path": "runtime.native.system/4.0.0",
       "hashPath": "runtime.native.system.4.0.0.nupkg.sha512"
     },
-    "ServerRecoveryClient/1.0.0": {
+    "ServerRecoveryClient/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Dda9kB2e2EHT5ppUe8cSnlCcMV8Jl+jXEInkzVSZwMzZaBC1J4bpJIBt1+kmuPmPptwCL1ojeQI+MkRRf1D1/Q==",
-      "path": "serverrecoveryclient/1.0.0",
-      "hashPath": "serverrecoveryclient.1.0.0.nupkg.sha512"
+      "sha512": "sha512-RicEO1Is7Si+ZsT/S1uSMj1wmccBILkp91GBNZxBmjektdqVMcJVnNGd2lRtJWIgkKNrLqTyhyt28XDYjeMTBg==",
+      "path": "serverrecoveryclient/1.1.0",
+      "hashPath": "serverrecoveryclient.1.1.0.nupkg.sha512"
     },
     "StackExchange.Redis/2.6.48": {
       "type": "package",
